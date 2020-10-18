@@ -1,20 +1,19 @@
 // For the default version
 const algoliasearch = require("algoliasearch");
 
-// const client = algoliasearch(env.APPLICATION_ID, env.ADMIN_KEY);
-const client = algoliasearch("", "");
+const client = algoliasearch("xxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxx");
 const index = client.initIndex("movies_search");
 
-// const contactsJSON = require("./recordsPart1.json");
-// const contactsJSON = require("./recordsPart2.json");
+const contactsJSON = require("./recordsPart1.json");
+const contactsJSON = require("./recordsPart2.json");
 
-// index
-//   .saveObjects(contactsJSON, {
-//     autoGenerateObjectIDIfNotExist: true,
-//   })
-//   .then(({ objectIDs }) => {
-//     console.log(objectIDs);
-//   });
+index
+  .saveObjects(contactsJSON, {
+    autoGenerateObjectIDIfNotExist: true,
+  })
+  .then(({ objectIDs }) => {
+    console.log(objectIDs);
+  });
 
 // https://www.algolia.com/doc/api-reference/api-parameters/searchableAttributes/?utm_medium=page_link&utm_source=dashboard#examples
 // https://www.algolia.com/doc/guides/managing-results/must-do/searchable-attributes/
@@ -33,6 +32,6 @@ index
   });
 
 // Search for a first name
-// index.search("Selena Gomez").then(({ hits }) => {
+// index.search("Adam Sandler").then(({ hits }) => {
 //   console.log(hits);
 // });
