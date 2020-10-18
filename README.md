@@ -32,8 +32,7 @@ MovieSearch was built to help you find that action movie from your childhood tha
       4. years
       5. title
       6. alternative_titles
-actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. 
-  The ordering 
+    - actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. The ordering for discovery was chosen in this order, because I believe the attributes that people will naturally use as filters are genre and rating, followed by actors, with year and title/alternative_titles following that. The titles are included becuase they may have words in the title relevant to discovery, but are further down becuase the intention is not to search based on titles here, but rather discovery based more so on genre, rating, and actors. 
   
   - movies_search
 
