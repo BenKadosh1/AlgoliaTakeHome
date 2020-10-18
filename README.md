@@ -24,10 +24,17 @@ MovieSearch was built to help you find that action movie from your childhood tha
 #### Index Configuration
 
 6. Configuration: My configurations have been made accessible to Algolia admin's as instructed. Below I will discuss the reasoning for each configuration.
-
-- movies_discover: This index is meant to feed the discover page of the App. In the discovery space users don't know what movie they want to watch, but they might have a sense for what genre and/or rating of movie they are in the mood for, and which actors they might want to see in that movie, and so discover is meant to help users find movies they didn't even know they wanted to watch! And so, the configurations here are intended to help users filter down by genre and rating and search by the Searchable attributes as well.
-  1.
-- movies_search
+  - movies_discover: 
+    - This index is meant to feed the discover page of the App. In the discovery space users don't know what movie they want to watch, but they might have a sense for what genre and/or rating of movie they are in the mood for, and which actors they might want to see in that movie, and so discover is meant to help users find movies they didn't even know they wanted to watch! And so, the configurations here are intended to help users filter down by genre and rating and search by the searchable attributes as well. The searchable attributes (all ordered) are as follows:
+      1. genre
+      2. rating
+      3. actors
+      4. years
+      5. title
+      6. alternative_titles
+    - actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. The ordering for discovery was chosen in this order, because I believe the attributes that people will naturally use as filters are genre and rating, followed by actors, with year and title/alternative_titles following that. The titles are included becuase they may have words in the title relevant to discovery, but are further down becuase the intention is not to search based on titles here, but rather discovery based more so on genre, rating, and actors. 
+  
+  - movies_search
 
 #### Layout and Pages and Mobile/responsiveness
 
