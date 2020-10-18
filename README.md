@@ -24,7 +24,7 @@ MovieSearch was built to help you find that action movie from your childhood tha
 #### Index Configuration
 
 6. Configuration: My configurations have been made accessible to Algolia admin's as instructed. Below I will discuss the reasoning for each configuration.
-  -movies_discover
+  - movies_discover
 This index is meant to feed the discover page of the App. In the discovery space users don't know what movie they want to watch, but they might have a sense for what genre and/or rating of movie they are in the mood for, and which actors they might want to see in that movie, and so discover is meant to help users find movies they didn't even know they wanted to watch! And so, the configurations here are intended to help users filter down by genre and rating and search by the searchable attributes as well. The searchable attributes (all ordered) are as follows:
   1. genre
   2. rating
@@ -35,7 +35,7 @@ This index is meant to feed the discover page of the App. In the discovery space
 actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. 
   The ordering 
   
-  -movies_search
+  - movies_search
 
 #### Layout and Pages and Mobile/responsiveness
 
