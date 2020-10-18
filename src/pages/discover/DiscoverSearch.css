@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  /* padding: 1em; */
   background: white;
 }
 
@@ -11,8 +10,7 @@ body {
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
   .ais-SearchBox {
     margin: 1.5em 0;
-    width: 90%;
-    height: 100%;
+    width: 100%;
   }
 }
 
@@ -117,8 +115,6 @@ h2 {
 
 .ais-Hits-item img {
   margin-right: 1em;
-
-  /* added */
   width: 100%;
   justify-content: center;
   height: 85%;

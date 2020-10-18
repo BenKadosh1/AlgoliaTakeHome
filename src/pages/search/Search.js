@@ -6,8 +6,6 @@ import {
   SearchBox,
   Pagination,
   Highlight,
-  ClearRefinements,
-  RefinementList,
   Configure,
 } from "react-instantsearch-dom";
 import PropTypes from "prop-types";
@@ -55,18 +53,11 @@ class Search extends Component {
               indexName="movies_search"
               searchClient={searchClient}
             >
-              <div className="left-panel">
+              <div className="main-panel">
                 <SearchBox />
-                <ClearRefinements />
-                <h2>Genre</h2>
-                <RefinementList attribute="genre" />
-                <h2>Rating</h2>
-                <RefinementList attribute="rating" />
-                <Configure hitsPerPage={6} />
-              </div>
-              <div className="right-panel">
                 <Hits hitComponent={Hit} />
                 <Pagination />
+                <Configure hitsPerPage={6} />
               </div>
             </InstantSearch>
           </div>

@@ -17,9 +17,6 @@ body {
 #landing-header h1 {
   color: #fff;
   font-size: 6em;
-  /* determine if to remove text shadow */
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
-
   width: 50%;
   margin: 0 auto;
   padding-bottom: 1em;
@@ -65,7 +62,6 @@ body {
 }
 
 .buttons div button {
-  /* background-color: #4caf50; */
   background-color: #1890ff;
   border: none;
   color: white;
@@ -148,8 +144,3 @@ body {
     opacity: 0;
   }
 }
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-/* .no-cssanimations .slideshow li {
-  opacity: 1;
-} */
