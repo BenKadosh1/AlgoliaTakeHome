@@ -1,0 +1,66 @@
+.NavbarContainer {
+  background: white;
+  min-height: 60px;
+  height: 60px;
+  border-bottom: 3px solid #1890ff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  box-sizing: border-box;
+}
+
+.homeIcon {
+  position: fixed;
+  left: 0;
+  margin-left: 4%;
+}
+
+#iconId {
+  padding-right: 0.5em;
+}
+
+.links {
+  position: fixed;
+  right: 0px;
+  margin-right: 1%;
+}
+
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  a {
+    font-size: 1rem;
+  }
+}
+
+div .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+div .ant-menu-item a {
+  color: #1890ff;
+}
+
+div .ant-menu-submenu-title .ant-btn {
+  background: #fff;
+  border-color: #1890ff;
+  color: #1890ff;
+}
+
+.links a {
+  padding: 0 1em;
+}
+
+.active-link {
+  font: 800;
+}
