@@ -98,9 +98,8 @@ The following Algolia docs/reference links were used for guidance in building ou
   - https://www.udemy.com/course/the-web-developer-bootcamp/
   - https://www.udemy.com/course/modern-react-bootcamp/
 
-## Feedback and Observations
-
-quickstart assistant was very helpful so I decided to go along with it
-when uploading data if file exceeds max make it red or provide a message to users
-I liked that in the record upload option there was also the option for csv and tsv
-Quickstart assistant was super ease to work with
+## Feedback
+  - I found the quickstart assistant to be extremely helpful
+  - I was thoroughly impressed with all of the documentation and demos avaialble, as well as the large amount of languages that Algolia can be used in
+  - I liked that in the record upload option there was also the option for csv and tsv
+  - Overall, this was a really rewarding experience to build out a new app and really get to experience the power of Algolia
