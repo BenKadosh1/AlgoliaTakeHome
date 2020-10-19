@@ -8,7 +8,7 @@ After exploring different datasets (discussed below in more detail), I chose to 
 
 ### MovieSearch: A new way to Movie!
 
-MovieSearch was built to help you find that action movie from your childhood that featured Tom Cruise that you just can't remember the name of and to help you discover an obscure 1-rated horror movie that Netflix's recommendation system just isn't going to find for you, and for every other movie search and discovery experience you can think of.
+MovieSearch was built to help you find that action movie from your childhood that featured Tom Cruise that you just can't remember the name of and to help you discover an obscure 1-rated horror movie that Netflix's recommendation system just isn't going to find for you. MovieSearch is here for every movie search and discovery experience you can think of.
 
 #### My Approach
 
