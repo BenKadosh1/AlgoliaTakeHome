@@ -101,5 +101,5 @@ The following Algolia docs/reference links were used for guidance in building ou
 ## Feedback
   - I found the quickstart assistant to be extremely helpful
   - I was thoroughly impressed with all of the documentation and demos avaialble, as well as the large amount of languages that Algolia can be used in
-  - I liked that in the record upload option there was also the option for csv and tsv
-  - Overall, this was a really rewarding experience to build out a new app and really get to experience the power of Algolia
+  - I liked that in the record upload option in the dashboard there was also the option for csv and tsv
+  - Overall, this was a really rewarding experience for me to be able to build out a new app and really get to experience the power of Algolia
