@@ -76,7 +76,10 @@ MovieSearch was built to help you find that action movie from your childhood tha
     - Ant design for icons and styling
 
 #### Instructions
-  10. In order to run the app you will need to run the ful
+  10. In order to run the app you will need to run the following commands locally:
+    - git clone https://github.com/BenKadosh1/AlgoliaTakeHome.git
+    - npm install 
+    - npm start
 
 #### References
 The following Algolia docs/reference links were used for guidance in building out the app:
