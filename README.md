@@ -1,5 +1,7 @@
 # Algolia Take-home Assignment: Ben Kadosh
 
+**Instructions for downloading and running the app can be found at the bottom of the README.**
+
 ## Project Outline
 
 ### Background and Intent
