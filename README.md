@@ -78,6 +78,7 @@ MovieSearch was built to help you find that action movie from your childhood tha
 #### Instructions
 10. In order to run the app you will need to run the following commands locally:
     - git clone https://github.com/BenKadosh1/AlgoliaTakeHome.git
+    - cd AlgoliaTakeHome/
     - npm install 
     - npm start
 
