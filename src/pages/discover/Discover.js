@@ -36,6 +36,9 @@ class Search extends Component {
             searchClient={searchClient}
           >
             <div className="left-panel">
+              <MediaQuery maxDeviceWidth={812}>
+                <SearchBox />
+              </MediaQuery>
               <ClearRefinements />
               <h2>Genre</h2>
               <RefinementList attribute="genre" />
@@ -49,7 +52,9 @@ class Search extends Component {
               </MediaQuery>
             </div>
             <div className="right-panel">
-              <SearchBox />
+              <MediaQuery minDeviceWidth={1200}>
+                <SearchBox />
+              </MediaQuery>
               <Hits hitComponent={Hit} />
               <Pagination />
             </div>
