@@ -58,7 +58,10 @@ MovieSearch was built to help you find that action movie from your childhood tha
 
 
 #### Layout and Pages
-7. 
+7. The app consists of three main pages: Home, Discover, and Search, as well as a Navbar component for th Discover and Search pages.
+    - Home: The home page has an animation that shows several different movie related images fading in and out, as well as buttons to direct users to the discover and search pages. 
+    - Discover: The Discover page has a navbar at the top with links to the the home page on the top left and search and discover at the top right. In addition, it has a left and right panel (inspired by the live demo https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react/). In the left panel are faceting items for genre and rating and on the right a search bar and cards for each search item returned. Each card is comprised of an image, title, genre, rating, and actors that appear in the movie. **Please note that a vast majority of the image urls provide by the dataset return image not found results. As a result, I improvised and took the search queries to retrieve images from unsplash - a site that provides freely usable images that may resemble the search query and ensure an image is in the card. **    
+    - Search: Search is very similar to Discover in terms of layout. However, it does not offer faceting and therefore only has a search bar and result cards. With that being said, both pages have different configurations as was disccused above.
 
 #### Dependencies
 
