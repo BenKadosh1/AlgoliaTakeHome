@@ -73,20 +73,24 @@ MovieSearch was built to help you find that action movie from your childhood tha
     - Algolia's InstantSearch for interacting with the API to send search requests and retrieve and present the relevant information through the use of InstantSearch Widgets 
     - React Router for client-side routing
     - react-responsive for media queries to structure the html differently for mobile and desktop
+    - Ant design for icons and styling
 
 #### References
-
-Colt Steele
-Algolia documentation links
-Algolia ecommerce example
-
-https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/javascript/?language=javascript#search-ui
-for styling
-https://www.algolia.com/doc/guides/building-search-ui/widgets/customize-an-existing-widget/js/#via-cdn
-https://codesandbox.io/s/github/algolia/doc-code-samples/tree/master/React%20InstantSearch/getting-started?file=/public/index.html:429-527
-
-refinement list for search
-https://www.algolia.com/doc/api-reference/widgets/refinement-list/react/
+The following Algolia docs/reference links were used for guidance in building out the app:
+  - https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/javascript/?language=javascript#search-ui
+  - https://www.algolia.com/doc/api-client/getting-started/install/javascript/?language=javascript
+  - https://www.algolia.com/doc/api-reference/api-parameters/searchableAttributes/#usage-notes
+  - https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/?utm_medium=page_link&utm_source=dashboard#algolias-ranking-strategy
+  - https://www.algolia.com/doc/guides/building-search-ui/installation/react/
+  - https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react/
+  - https://www.algolia.com/doc/api-reference/widgets/react/
+  - https://www.algolia.com/doc/guides/building-search-ui/getting-started/react/
+  - https://www.algolia.com/doc/guides/building-search-ui/widgets/showcase/react/
+  - https://codesandbox.io/s/github/algolia/doc-code-samples/tree/master/React%20InstantSearch/getting-started?file=/public/index.html:429-527
+  - https://www.algolia.com/doc/api-reference/widgets/refinement-list/react/
+  - https://www.algolia.com/doc/guides/building-search-ui/widgets/customize-an-existing-widget/js/#via-cdn
+  - https://www.udemy.com/course/the-web-developer-bootcamp/
+  - https://www.udemy.com/course/modern-react-bootcamp/
 
 ## Feedback and Observations
 
