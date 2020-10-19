@@ -19,9 +19,9 @@ I hope all is well. At a high-level, I would view records and indexing as follow
     
 Regarding the "Custom Ranking" metrics, I think it is important to think of these metrics as the ones that customers/consumers will look for to influence their decisions and facilitate tie breaks when purchasing a product or taking on an activity. To give you an example, suppose we want to buy a pair of sneakers from Adidas' online store. We filter by shoe size, type of shoe, and color, and 10 results appear. How will we determine which to purchase beyond the native order in which they appear?
 
-We might look for the average rating for each shoe and select the highest rated shoe. We might balance the average rating with which shoe has the highest number of ratings, because we believe we can trust an average score comprised of 10,000 ratings more than a high average score comprised of 50 ratings. 
+We might look for the **average rating** for each shoe and select the highest rated shoe. We might balance the average rating with which shoe has the highest **number of ratings**, because we believe we can trust an average score comprised of 10,000 ratings more than a high average score comprised of 50 ratings. 
 
-If instead we wanted to buy a computer, for example, there is a good chance we will be more interested in the newer computers, so we will want to know the release/construction date. We might also want to know not just which product has the highest rating or when it was released, but also how many views it has. Views can indicate what has caught the attention of others and what might be currently trending. 
+If instead we wanted to buy a computer, for example, there is a good chance we will be more interested in the newer computers, so we will want to know the **release/construction date**. We might also want to know not just which product has the highest rating or when it was released, but also **how many views it has**. Views can indicate what has caught the attention of others and what might be currently trending. 
 
 I hope I was able to answer all of your questions, but if you have any follow-up questions please feel free to reach out. In addition, I have included a few links to the Algolia website where they discuss these concepts in more detail. 
 
