@@ -4,8 +4,8 @@ Hi George,
 I hope all is well. At a high-level, I would view records and indexing as follows:
   1. Record 
     - An object that holds all of the relevant information (known as fields/attributes/elements) for an item (known as a record) such as an event, transaction, or entity. It is conceptually very similar to an entry in a database or a row of data in an excel spreadsheet. You can also think of it as an item that holds a set of key-value pairs all pertaining to a given object. Here is a simple example: 
-Suppose there is an online shoe store that is registering new users. For each user, we want to get their first and last name, shoe size, and credit card and shipping information. 
-One record would store the following information for a specific user:
+      - Suppose there is an online shoe store that is registering new users. For each user, we want to get their first and last name, shoe size, and credit card and shipping information. 
+      -One record would store the following information for a specific user:
 First Name: Ben
 Last Name: Kadosh
 Shoe Size: 9.5
