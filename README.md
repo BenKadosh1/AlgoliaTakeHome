@@ -85,38 +85,6 @@ when uploading data if file exceeds max make it red or provide a message to user
 
 My approach
 
-5. Relevance configuration
-   This data set has 10 searchableAttributes
-   This excludes objectId provided by Algolia
-
-   They are:
-   objectID
-   title
-   alternative_titles
-   year
-   image
-   color
-   score
-   rating
-   actors
-   actor_facets
-   genre
-
-   Of these I would argue the following should be searchable as they are relevant attributes that it is likely users will know
-   and use for searching:
-   title
-   alternative_titles
-   year
-   score
-   rating
-   actors
-   genre
-
-   These are the ones that wouldn't be used IMO
-   objectID
-   image
-   color
-   actor_facets
 
    in order to properly configure searchable attributes I realized I would need to install the JavaScript API Client
    with that I knew I wanted to use react for the front end so, I used the following
@@ -134,29 +102,12 @@ My approach
 
    discuss which go where
 
-6. ranking and sorting
-   kept default as it says 99%
-   and will need to add one custom ranking attribute.
 
 7. Install npm algolia search react component
    some issues here with npm rollback but if I let it sit long enough it eventually installed
 8. Use react router
    npm install --save react-router-dom
 
-9. check npm install dependencies if i missed anything with algolia installations
-
-10. First step is to create the routes we want
-    later we will add 404
-
-routes we want are
-/
-/Search
-/Discover
-
-Home page will have images that fade in and out in the background of different movies
-and two options for search and discover
-
-## using ant design for buttons
 
 for styling
 https://www.algolia.com/doc/guides/building-search-ui/widgets/customize-an-existing-widget/js/#via-cdn
