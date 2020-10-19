@@ -75,6 +75,9 @@ MovieSearch was built to help you find that action movie from your childhood tha
     - react-responsive for media queries to structure the html differently for mobile and desktop
     - Ant design for icons and styling
 
+#### Instructions
+  10. In order to run the app you will need to run the ful
+
 #### References
 The following Algolia docs/reference links were used for guidance in building out the app:
   - https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/javascript/?language=javascript#search-ui
