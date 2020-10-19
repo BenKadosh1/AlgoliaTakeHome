@@ -53,7 +53,7 @@ MovieSearch was built to help you find that action movie from your childhood tha
           3. genre
           4. year
         - actor_factets, color, image were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera. Score and rating were removed so as not to affect searches for movies and/or years with numeric values. The ordering for search was chosen in this order, because I believe the attributes that people will naturally search for first when thinking of a movie they already know is the title and actors, followed by genre and year. Title and alternative_title have the same priority here to accomodate searches in different languages.  
-        - Ranking and sorting: The overview for the ranking and sorting configuration mentions that the default ranking rules work very well 99% of the time, which is more than good for me to keep as is. It is highly recommended to configure at least one business/popularity metric as a custom rating so I used the rating attribute, as I believe users will want to see movies with higher ratings first with all else being equal. 
+        - Ranking and sorting: The overview for the ranking and sorting configurations mentions that the default ranking rules work very well 99% of the time, so I kept them as is. It is highly recommended to configure at least one business/popularity metric as a custom rating, so I used the rating attribute, as I believe users will naturally want to see movies with higher ratings.
         -  Attributes for faceting: There is no faceting in the search page like there is with discovery. 
 
 
