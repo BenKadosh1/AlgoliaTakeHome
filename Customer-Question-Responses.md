@@ -25,9 +25,9 @@ If instead we wanted to buy a computer, for example, there is a good chance we w
 
 I hope I was able to answer all of your questions, but if you have any follow-up questions please feel free to reach out. In addition, I have included a few links to the Algolia website where they discuss these concepts in more detail. 
 
-[Link 1](https://www.algolia.com/doc/api-client/methods/indexing/)
-[Link 2](https://www.algolia.com/doc/faq/basics/what-is-an-index/)
-[Link 3](https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/)
+[Link 1](https://www.algolia.com/doc/api-client/methods/indexing/)   
+[Link 2](https://www.algolia.com/doc/faq/basics/what-is-an-index/)   
+[Link 3](https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/)   
 
 Regards,
 Ben
