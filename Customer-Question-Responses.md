@@ -34,4 +34,18 @@ Ben
 
 
 ## Response 2
+Hi Matt,  
+
+I hope all is well. Please don't apologize - I appreciate the honesty and feedback. I will be sure to pass it along to the product team.  
+
+I know the new dashboard design is different, however it might be possible we can find a solution that reduces the number of clicks you have to go through for clearing and deleting indexes. While the dashboard certainly has its benefits, I think the API Client could really simplify some of your tasks here. The API Client has two methods, **.delete()** and **.clearObjects()**, which can take care of clearing and deleting indexes for you with a handful of lines of code. It might require a bit more time up front, but the code will be reusable and easily configured and can save you time in the long run. 
+
+I have included several links to Algolia's website where they discuss these concepts in more detail for your reference. I know the thought of having to use the API may be daunting, but it is actually quite simple and I'd be happy to help you out. If you prefer to stick with the dashboard, I'd also be happy to set up a video call for us to go through everything and see if there is a more efficient way to do what you want within the platform. Please let me know whatever you prefer. 
+
+[Link 1](https://www.algolia.com/doc/api-reference/api-methods/clear-objects/)
+[Link 2](https://www.algolia.com/doc/api-reference/api-methods/delete-index/)
+[Link 3](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?language=javascript)
+
+Thanks!
+Ben
 ## Response 3
