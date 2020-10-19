@@ -42,9 +42,9 @@ I know the new dashboard design is different, however it might be possible we ca
 
 I have included several links to Algolia's website where they discuss these concepts in more detail for your reference. I know the thought of having to use the API may be daunting, but it is actually quite simple and I'd be happy to help you out. If you prefer to stick with the dashboard, I'd also be happy to set up a video call for us to go through everything and see if there is a more efficient way to do what you want within the platform. Please let me know whatever you prefer. 
 
-[Link 1](https://www.algolia.com/doc/api-reference/api-methods/clear-objects/)
-[Link 2](https://www.algolia.com/doc/api-reference/api-methods/delete-index/)
-[Link 3](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?language=javascript)
+[Link 1](https://www.algolia.com/doc/api-reference/api-methods/clear-objects/)      
+[Link 2](https://www.algolia.com/doc/api-reference/api-methods/delete-index/)    
+[Link 3](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?language=javascript)     
 
 Thanks!
 Ben
