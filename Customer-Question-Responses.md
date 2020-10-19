@@ -46,6 +46,30 @@ I have included several links to Algolia's website where they discuss these conc
 [Link 2](https://www.algolia.com/doc/api-reference/api-methods/delete-index/)    
 [Link 3](https://www.algolia.com/doc/api-client/getting-started/install/javascript/?language=javascript)     
 
-Thanks!
+Thanks!   
 Ben
+
 ## Response 3
+Hi Leo, 
+
+Thanks for reaching out. Algolia has done a lot of great work to ensure that the development work for you is simple, quick, and efficient. 
+
+Algolia offers a great deal of flexibility for its users through the dashboard and an API Client. It can be used with more than 10 different coding languages, including JavaScript, Python, Ruby, PHP, and Scala. Furthermore, there is a large offering of UI Widgets that can be used with React, Vue, Angular, iOS and Android. 
+
+The high level process would look like this:
+  1. Create an Algolia account
+  2. Select a datacenter
+  3. Create an [index](https://www.algolia.com/doc/api-client/methods/indexing/) 
+  4. Upload the desired data
+  5. Configure the index with the relevant searchable attributes, ranking, and faceting 
+  6. Build out a website UI
+  7. Connect the UI to the index through the API client
+  
+I have provided a link to the "[Getting Started](https://www.algolia.com/doc/guides/getting-started/quick-start/)" page for your reference, which has more information on the process from start to finish. From there, the sky is the limit. We offer A/B testing, analytics, and personalization, which can greatly enhance search effectiveness and the search experience. 
+
+I would direct you to the following [video](https://www.youtube.com/watch?v=IYY5RM1sBC0) and [interactive tutorial](https://www.algolia.com/doc/onboarding/#/pick-dataset) to see what can be done in a short period of time. I can also tell you that in a matter of days, I was able to go from knowing little about how to use the product to building a full Movie Search application. With that being said, the product has been designed to minimize the amount of development work you will need to do. 
+
+If you have any further questions or would be interested in a demo of the latest and greatest that the team has created, please let me know. Thanks again for reaching out!
+
+All the best,    
+Ben
