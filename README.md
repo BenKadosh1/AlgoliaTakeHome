@@ -35,26 +35,26 @@ MovieSearch was built to help you find that action movie from your childhood tha
 #### Index Configuration
 
 6. Configuration: My configurations have been made accessible to Algolia admin's as instructed. Below I will discuss the reasoning for each configuration.
-  - movies_discover: 
-    - This index is meant to feed the discover page of the App. In the discovery space users don't know what movie they want to watch, but they might have a sense for what genre and/or rating of movie they are in the mood for, and which actors they might want to see in that movie, and so discover is meant to help users find movies they didn't even know they wanted to watch! And so, the configurations here are intended to help users filter down by genre and rating and search by the searchable attributes as well. The searchable attributes (all ordered) are as follows:
-      1. genre
-      2. rating
-      3. actors
-      4. year
-      5. title
-      6. alternative_titles
-    - actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. The ordering for discovery was chosen in this order, because I believe the attributes that people will naturally use as filters are genre and rating, followed by actors, with year and title/alternative_titles following that. The titles are included becuase they may have words in the title relevant to discovery, but are further down because the intention is not to search based on titles here, but rather discovery based more so on genre, rating, and actors. 
-    - Ranking and sorting: The overview for the ranking and sorting configuration mentions that the default ranking rules work very well 99% of the time, which is more than good for me to keep as is. It is highly recommended to configure at least one business/popularity metric as a custom rating so I used the rating attribute, as I believe users will want to see movies with higher ratings first with all else being equal. 
-    -  Attributes for faceting: For discovery I used genre and rating as the attributes for faceting, because these attributes will be the easiest to filter by for users to discover new movies. 
-  - movies_search:
-    - This index is meant to feed the search page of the App. In the search space users are looking to find which actors appeared in a certain movie, what year a movie came out, what rating the movie has, or what genres it falls under. The configurations here are intended to help users find a certain movie or information pertaining to a movie based on previously known information. The searchable attributes are as follows:
-      1. title, alternative_titles
-      2. actors
-      3. genre
-      4. year
-    - actor_factets, color, image were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera. Score and rating were removed so as not to affect searches for movies and/or years with numeric values. The ordering for search was chosen in this order, because I believe the attributes that people will naturally search for first when thinking of a movie they already know is the title and actors, followed by genre and year. Title and alternative_title have the same priority here to accomodate searches in different languages.  
-    - Ranking and sorting: The overview for the ranking and sorting configuration mentions that the default ranking rules work very well 99% of the time, which is more than good for me to keep as is. It is highly recommended to configure at least one business/popularity metric as a custom rating so I used the rating attribute, as I believe users will want to see movies with higher ratings first with all else being equal. 
-    -  Attributes for faceting: There is no faceting in the search page like there is with discovery. 
+      - movies_discover: 
+        - This index is meant to feed the discover page of the App. In the discovery space users don't know what movie they want to watch, but they might have a sense for what genre and/or rating of movie they are in the mood for, and which actors they might want to see in that movie, and so discover is meant to help users find movies they didn't even know they wanted to watch! And so, the configurations here are intended to help users filter down by genre and rating and search by the searchable attributes as well. The searchable attributes (all ordered) are as follows:
+          1. genre
+          2. rating
+          3. actors
+          4. year
+          5. title
+          6. alternative_titles
+        - actor_factets, color, image, score were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera and I believe score is very similar to rating and rating was more standardized, which would make it easier for faceting. The ordering for discovery was chosen in this order, because I believe the attributes that people will naturally use as filters are genre and rating, followed by actors, with year and title/alternative_titles following that. The titles are included becuase they may have words in the title relevant to discovery, but are further down because the intention is not to search based on titles here, but rather discovery based more so on genre, rating, and actors. 
+        - Ranking and sorting: The overview for the ranking and sorting configuration mentions that the default ranking rules work very well 99% of the time, which is more than good for me to keep as is. It is highly recommended to configure at least one business/popularity metric as a custom rating so I used the rating attribute, as I believe users will want to see movies with higher ratings first with all else being equal. 
+        -  Attributes for faceting: For discovery I used genre and rating as the attributes for faceting, because these attributes will be the easiest to filter by for users to discover new movies. 
+      - movies_search:
+        - This index is meant to feed the search page of the App. In the search space users are looking to find which actors appeared in a certain movie, what year a movie came out, what rating the movie has, or what genres it falls under. The configurations here are intended to help users find a certain movie or information pertaining to a movie based on previously known information. The searchable attributes are as follows:
+          1. title, alternative_titles
+          2. actors
+          3. genre
+          4. year
+        - actor_factets, color, image were all removed as searchable attributes because images, links, and colors aren't really effective nor intuitive search critera. Score and rating were removed so as not to affect searches for movies and/or years with numeric values. The ordering for search was chosen in this order, because I believe the attributes that people will naturally search for first when thinking of a movie they already know is the title and actors, followed by genre and year. Title and alternative_title have the same priority here to accomodate searches in different languages.  
+        - Ranking and sorting: The overview for the ranking and sorting configuration mentions that the default ranking rules work very well 99% of the time, which is more than good for me to keep as is. It is highly recommended to configure at least one business/popularity metric as a custom rating so I used the rating attribute, as I believe users will want to see movies with higher ratings first with all else being equal. 
+        -  Attributes for faceting: There is no faceting in the search page like there is with discovery. 
 
 
 #### Layout and Pages
