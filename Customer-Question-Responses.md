@@ -4,15 +4,15 @@ Hi George,
 I hope all is well. At a high-level, I would view records and indexing as follows:
   1. Record 
       - An object that holds all of the relevant information (known as fields/attributes/elements) for an item (known as a record) such as an event, transaction, or entity. It is conceptually very similar to an entry in a database or a row of data in an excel spreadsheet. You can also think of it as an item that holds a set of key-value pairs all pertaining to a given object. Here is a simple example: 
-      - Suppose there is an online shoe store that is registering new users. For each user, we want to get their first and last name, shoe size, and credit card and shipping information. 
-      - One record would store the following information for a specific user:
-        - First Name: Ben
-        - Last Name: Kadosh
-        - Shoe Size: 9.5
-        - Credit Card: 1234 1234 1234 1234
-        - Address: 10 5th Ave
-        - City: New York
-        - State: NY
+        - Suppose there is an online shoe store that is registering new users. For each user, we want to get their first and last name, shoe size, and credit card and shipping information. 
+        - One record would store the following information for a specific user:
+          - First Name: Ben
+          - Last Name: Kadosh
+          - Shoe Size: 9.5
+          - Credit Card: 1234 1234 1234 1234
+          - Address: 10 5th Ave
+          - City: New York
+          - State: NY
 
   2. Indexing
 An index is where data is stored for use by a search engine. It is conceptually similar to a table in a database. Indexing is the process by which a search engine organizes the stored data to retrieve the most relevant information as quickly as possible. Without indexing, a search engine has no direction, and it would have to potentially go through all of the data in an index to find the relevant information. Without having to look under the hood, the process of indexing is like creating a map that allows a search engine to know exactly where to look for relevant information instead of searching through all of the data until it finds what it needs.
