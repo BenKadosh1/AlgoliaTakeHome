@@ -67,7 +67,8 @@ MovieSearch was built to help you find that action movie from your childhood tha
 
 #### Dependencies
 9. Dependencies: The following dependencies were used in developing the app. They were installed using npm. 
-    - Algolia's InstantSearch for InstantSearch Widgets and interacting with the API to send search requests and retrieve and present the relevant information. 
+    - Algolia's algoliasearch Javascript API client for configuring the indices
+    - Algolia's InstantSearch for InstantSearch Widgets and interacting with the API to send search requests and retrieve and present the relevant information 
     - React Router for client-side routing
     - react-responsive for media queries to structure the html differently for mobile and desktop (primarily for the navbar)
     - Ant design for mobile menu for navlinks
@@ -78,37 +79,7 @@ Colt Steele
 Algolia documentation links
 Algolia ecommerce example
 
-## Feedback and Observations
-
-quickstart assistant was very helpful so I decided to go along with it
-when uploading data if file exceeds max make it red or provide a message to users
-
-My approach
-
-
-   in order to properly configure searchable attributes I realized I would need to install the JavaScript API Client
-   with that I knew I wanted to use react for the front end so, I used the following
-
-   npx create-react-app my-app
-   https://reactjs.org/docs/create-a-new-react-app.html
-
-   then
-   npm install algoliasearch
-
-   in order to install api I went through quickstart exercises to make it work and become more familiar
-   https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/javascript/?language=javascript#search-ui
-
-   look at admin copy and then admin
-
-   discuss which go where
-
-
-7. Install npm algolia search react component
-   some issues here with npm rollback but if I let it sit long enough it eventually installed
-8. Use react router
-   npm install --save react-router-dom
-
-
+https://www.algolia.com/doc/guides/getting-started/quick-start/tutorials/quick-start-with-the-api-client/javascript/?language=javascript#search-ui
 for styling
 https://www.algolia.com/doc/guides/building-search-ui/widgets/customize-an-existing-widget/js/#via-cdn
 https://codesandbox.io/s/github/algolia/doc-code-samples/tree/master/React%20InstantSearch/getting-started?file=/public/index.html:429-527
@@ -116,19 +87,9 @@ https://codesandbox.io/s/github/algolia/doc-code-samples/tree/master/React%20Ins
 refinement list for search
 https://www.algolia.com/doc/api-reference/widgets/refinement-list/react/
 
--
+## Feedback and Observations
 
-Observations
-
+quickstart assistant was very helpful so I decided to go along with it
+when uploading data if file exceeds max make it red or provide a message to users
 I liked that in the record upload option there was also the option for csv and tsv
 Quickstart assistant was super ease to work with
-
-when trying to upload a file larger than 50MB nothing would happen. Perhaps it should highlight red or provide a message to users to use smaller files
-
-notes
-if movie doesn't have image go based off of genre
-if no genre default
-test return status make axios request perhaps use postman
-
-will need to use react router for multiple pages
-have design layed out
