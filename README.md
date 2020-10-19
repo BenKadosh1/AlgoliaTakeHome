@@ -70,7 +70,7 @@ MovieSearch was built to help you find that action movie from your childhood tha
     - Algolia's algoliasearch Javascript API client for configuring the indices
     - Algolia's InstantSearch for interacting with the API to send search requests and retrieve and present the relevant information through the use of InstantSearch Widgets 
     - React Router for client-side routing
-    - react-responsive for media queries to structure the html differently for mobile and desktop (primarily for the navbar)
+    - react-responsive for media queries to structure the html differently for mobile and desktop
 
 #### References
 
