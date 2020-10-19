@@ -46,7 +46,8 @@ MovieSearch was built to help you find that action movie from your childhood tha
     -  Attributes for faceting: There is no faceting in the search page like there is with discovery. 
 
 
-#### Layout and Pages and Mobile/responsiveness
+#### Layout and Pages
+7. 
 
 #### Dependencies
 
