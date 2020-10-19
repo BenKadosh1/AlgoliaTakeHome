@@ -7,7 +7,7 @@ body {
   margin: 1em 0;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .ais-SearchBox {
     margin: 1.5em 0;
     width: 100%;
@@ -24,7 +24,13 @@ body {
   width: 250px;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media screen and (max-width: 750px) {
+  .left-panel {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .left-panel {
     width: 100%;
   }
@@ -52,7 +58,26 @@ h2 {
 .headerTitle {
   margin-left: 260px;
 }
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+
+@media screen and (max-width: 750px) {
+  .headerTitle {
+    margin-left: 210px;
+  }
+}
+.right-panel {
+  margin-left: 260px;
+}
+@media screen and (max-width: 750px) {
+  .right-panel {
+    margin-left: 210px;
+  }
+}
+
+.headerTitleSearch {
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .headerTitle {
     width: 100%;
     margin: auto;
@@ -60,18 +85,14 @@ h2 {
   }
 }
 
-.right-panel {
-  margin-left: 260px;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .right-panel {
     width: 100%;
     margin-left: 0;
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .main-panel {
     width: 100%;
     margin-left: 0;

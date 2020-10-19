@@ -27,58 +27,34 @@ class Search extends Component {
         <Navbar />
         <div className="spacer"></div>
 
-        <MediaQuery minDeviceWidth={1200}>
-          <div className="ais-InstantSearch">
-            <h1 className="headerTitle">
-              <strong>Discover the perfect movie for you!</strong>
-            </h1>
-            <InstantSearch
-              indexName="movies_discover"
-              searchClient={searchClient}
-            >
-              <div className="left-panel">
-                <ClearRefinements />
-                <h2>Genre</h2>
-                <RefinementList attribute="genre" />
-                <h2>Rating</h2>
-                <RefinementList attribute="rating" />
-
+        <div className="ais-InstantSearch">
+          <h1 className="headerTitle">
+            <strong>Discover the perfect movie for you!</strong>
+          </h1>
+          <InstantSearch
+            indexName="movies_discover"
+            searchClient={searchClient}
+          >
+            <div className="left-panel">
+              <ClearRefinements />
+              <h2>Genre</h2>
+              <RefinementList attribute="genre" />
+              <h2>Rating</h2>
+              <RefinementList attribute="rating" />
+              <MediaQuery minDeviceWidth={1200}>
                 <Configure hitsPerPage={12} />
-              </div>
-              <div className="right-panel">
-                <SearchBox />
-                <Hits hitComponent={Hit} />
-                <Pagination />
-              </div>
-            </InstantSearch>
-          </div>
-        </MediaQuery>
-
-        <MediaQuery maxDeviceWidth={812}>
-          <div className="ais-InstantSearch">
-            <h1 className="headerTitle">
-              <strong>Discover the perfect movie for you!</strong>
-            </h1>
-            <InstantSearch
-              indexName="movies_discover"
-              searchClient={searchClient}
-            >
-              <div className="left-panel">
-                <SearchBox />
-                <ClearRefinements />
-                <h2>Genre</h2>
-                <RefinementList attribute="genre" />
-                <h2>Rating</h2>
-                <RefinementList attribute="rating" />
+              </MediaQuery>
+              <MediaQuery maxDeviceWidth={812}>
                 <Configure hitsPerPage={6} />
-              </div>
-              <div className="right-panel">
-                <Hits hitComponent={Hit} />
-                <Pagination />
-              </div>
-            </InstantSearch>
-          </div>
-        </MediaQuery>
+              </MediaQuery>
+            </div>
+            <div className="right-panel">
+              <SearchBox />
+              <Hits hitComponent={Hit} />
+              <Pagination />
+            </div>
+          </InstantSearch>
+        </div>
       </div>
     );
   }

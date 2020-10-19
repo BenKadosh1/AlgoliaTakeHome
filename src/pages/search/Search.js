@@ -25,43 +25,24 @@ class Search extends Component {
         <Navbar />
         <div className="spacer"></div>
 
-        <MediaQuery minDeviceWidth={1200}>
-          <div className="ais-InstantSearch">
-            <h1 className="headerTitle">
-              <strong>Search for all of your favorite movies!</strong>
-            </h1>
-            <InstantSearch
-              indexName="movies_search"
-              searchClient={searchClient}
-            >
-              <div className="main-panel">
-                <SearchBox />
-                <Hits hitComponent={Hit} />
-                <Pagination />
+        <div className="ais-InstantSearch">
+          <h1 className="headerTitleSearch">
+            <strong>Search for all of your favorite movies!</strong>
+          </h1>
+          <InstantSearch indexName="movies_search" searchClient={searchClient}>
+            <div className="main-panel">
+              <SearchBox />
+              <Hits hitComponent={Hit} />
+              <Pagination />
+              <MediaQuery minDeviceWidth={1200}>
                 <Configure hitsPerPage={12} />
-              </div>
-            </InstantSearch>
-          </div>
-        </MediaQuery>
-
-        <MediaQuery maxDeviceWidth={812}>
-          <div className="ais-InstantSearch">
-            <h1 className="headerTitle">
-              <strong>Search for all of your favorite movies!</strong>
-            </h1>
-            <InstantSearch
-              indexName="movies_search"
-              searchClient={searchClient}
-            >
-              <div className="main-panel">
-                <SearchBox />
-                <Hits hitComponent={Hit} />
-                <Pagination />
+              </MediaQuery>
+              <MediaQuery maxDeviceWidth={812}>
                 <Configure hitsPerPage={6} />
-              </div>
-            </InstantSearch>
-          </div>
-        </MediaQuery>
+              </MediaQuery>
+            </div>
+          </InstantSearch>
+        </div>
       </div>
     );
   }

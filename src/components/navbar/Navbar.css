@@ -37,30 +37,24 @@ a {
   transition: all 0.4s ease-out;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media screen and (max-width: 750px) {
   a {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
 
-div .ant-menu-horizontal {
-  border-bottom: none;
-}
-
-div .ant-menu-item a {
-  color: #1890ff;
-}
-
-div .ant-menu-submenu-title .ant-btn {
-  background: #fff;
-  border-color: #1890ff;
-  color: #1890ff;
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
+  a {
+    font-size: 1rem;
+  }
 }
 
 .links a {
   padding: 0 1em;
 }
 
-.active-link {
-  font: 800;
+@media screen and (max-width: 750px) {
+  .links a {
+    padding: 0 0.3em;
+  }
 }
