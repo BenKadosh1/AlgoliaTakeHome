@@ -4,7 +4,7 @@
 
 ### Background and Intent
 
-After exploring different datasets(discussed below in more detail), I choose to build out a search platform for movies! I have been a lover of movies from an early age and I couldn't pass up the opportunity to build out a product that is movie themed. With that in mind, I wanted to harness Algolia's technology to build out a platform that would allow users to more easily and effectively search for and discover movies with a fun UI and excellent speed and relevance. Below I walk through my approach to building MovieSearch in great detail.
+After exploring different datasets (discussed below in more detail), I choose to build out a search platform for movies! I have been a lover of movies from an early age and I couldn't pass up the opportunity to build out a product that is movie themed. With that in mind, I wanted to harness Algolia's technology to build out a platform that would allow users to more easily and effectively search for and discover movies with a fun UI and excellent speed and relevance. Below I walk through my approach to building MovieSearch in great detail.
 
 ### MovieSearch: A new way to Movie!
 
