@@ -29,7 +29,7 @@ I hope I was able to answer all of your questions, but if you have any follow-up
 [Link 2](https://www.algolia.com/doc/faq/basics/what-is-an-index/)   
 [Link 3](https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/)   
 
-Regards,
+Regards,   
 Ben
 
 
