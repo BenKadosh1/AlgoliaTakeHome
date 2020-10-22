@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AlgoliaTakeHome/static/css/main.b888b54a.chunk.css",
+    "main.js": "/AlgoliaTakeHome/static/js/main.8ab9081b.chunk.js",
+    "main.js.map": "/AlgoliaTakeHome/static/js/main.8ab9081b.chunk.js.map",
+    "runtime-main.js": "/AlgoliaTakeHome/static/js/runtime-main.652b7829.js",
+    "runtime-main.js.map": "/AlgoliaTakeHome/static/js/runtime-main.652b7829.js.map",
+    "static/css/2.e10332d9.chunk.css": "/AlgoliaTakeHome/static/css/2.e10332d9.chunk.css",
+    "static/js/2.0fae7d01.chunk.js": "/AlgoliaTakeHome/static/js/2.0fae7d01.chunk.js",
+    "static/js/2.0fae7d01.chunk.js.map": "/AlgoliaTakeHome/static/js/2.0fae7d01.chunk.js.map",
+    "index.html": "/AlgoliaTakeHome/index.html",
+    "precache-manifest.9c2a09c210d6c20e4944f2abb209f5d1.js": "/AlgoliaTakeHome/precache-manifest.9c2a09c210d6c20e4944f2abb209f5d1.js",
+    "service-worker.js": "/AlgoliaTakeHome/service-worker.js",
+    "static/css/2.e10332d9.chunk.css.map": "/AlgoliaTakeHome/static/css/2.e10332d9.chunk.css.map",
+    "static/css/main.b888b54a.chunk.css.map": "/AlgoliaTakeHome/static/css/main.b888b54a.chunk.css.map",
+    "static/js/2.0fae7d01.chunk.js.LICENSE.txt": "/AlgoliaTakeHome/static/js/2.0fae7d01.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.652b7829.js",
+    "static/css/2.e10332d9.chunk.css",
+    "static/js/2.0fae7d01.chunk.js",
+    "static/css/main.b888b54a.chunk.css",
+    "static/js/main.8ab9081b.chunk.js"
+  ]
+}
